@@ -4,7 +4,7 @@ def calcular_distancia_recta_humano():
     Calcula las coordenadas Y y la distancia entre dos puntos 
     sobre una recta (Y = AX + B) con un formato de salida más natural.
     """
-    print("---  Calculadora de Puntos y Distancia en una Recta ---")
+    print("Calculadora de Puntos y Distancia en una Recta")
     print("Vamos a trabajar con la ecuación de primer grado: Y = AX + B")
     
     try:
@@ -40,11 +40,11 @@ def calcular_distancia_recta_humano():
     distancia_cuadrada = (delta_x ** 2) + (delta_y ** 2)
     distancia = math.sqrt(distancia_cuadrada)
 
-    print("\n--- Cálculo de la Distancia ---")
+    print("Cálculo de la Distancia")
     print("Aplicamos la fórmula de distancia: d = √(ΔX² + ΔY²)")
     print(f"ΔX = {X2} - {X1} = {round(delta_x, 2)}")
     print(f"ΔY = {Y2} - {Y1} = {round(delta_y, 2)}")
     print(f"\nLa distancia entre P1 y P2 es: {distancia_redondeada}")
     print("---------------------------------------------------")
-if __name__ == "__main__":
+if name == "main":
     calcular_distancia_recta_humano()
